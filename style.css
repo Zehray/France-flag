@@ -1,0 +1,27 @@
+body{
+    background: #eee;
+}
+
+.flag{
+    position: relative;
+    background: white;
+    padding: 33.33%;
+
+}
+.flag-blue{
+    width:33.33%;
+    height: 100%;
+    left:0;
+    top:0;
+    position: absolute;
+    background: darkblue;
+    
+}
+.flag-red{
+    width:33.33%;
+    height: 100%;
+    right:0;
+    top:0;
+    position: absolute;
+    background:maroon;   
+}
