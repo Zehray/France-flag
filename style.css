@@ -1,8 +1,19 @@
-body{
-    background: #eee;
+html{
+    width: 100%;
+    height: auto;
 }
 
+body{
+    width: 100%;
+    height: auto;
+    background: #eee;
+}
+*{box-sizing: border-box;}
+
+
 .flag{
+    width: 90%;
+    margin: 10px auto 10px auto;
     position: relative;
     background: white;
     padding: 33.33%;
