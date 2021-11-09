@@ -1,25 +1,31 @@
-html{
+html,body {
     width: 100%;
-    height: auto;
+    min-height: 100%;
+    background-color: #ccc;
 }
 
-body{
-    width: 100%;
-    height: auto;
-    background: #eee;
+* {
+    box-sizing: border-box;
 }
-*{box-sizing: border-box;}
 
+.container
+{
+    width: 70%;
+    min-height: 100%;
+    margin: 0 auto;
+    
+}
 
 .flag{
     width: 90%;
-    margin: 10px auto 10px auto;
+    margin: 10px auto;
     position: relative;
     background: white;
     padding: 33.33%;
 
 }
-.flag-blue{
+.flag:before{
+    content: "";
     width:33.33%;
     height: 100%;
     left:0;
@@ -28,7 +34,8 @@ body{
     background: darkblue;
     
 }
-.flag-red{
+.flag:after{
+    content: "";
     width:33.33%;
     height: 100%;
     right:0;
