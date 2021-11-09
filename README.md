@@ -1,3 +1,3 @@
 # France-flag
 
-![The Flag of France](The-flag-of-France.png)
+![The flag of France](The-flag-of-France.png)
